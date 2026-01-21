@@ -25,5 +25,4 @@ jobs:
       - name: Publish with Maven
         run: mvn -B deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GUTHUB_TOKEN }}
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
