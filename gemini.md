@@ -1,20 +1,22 @@
-# Gemini Integration for Java 25 Project
+# Git Demo Project
 
-## Overview
-This project is built using Java 25 and integrates with Gemini models for advanced AI capabilities. These capabilities can range from natural language processing to content generation, enhancing the application with intelligent features.
+This is a demonstration project using **Java 25**.
 
-## Getting Started
-To begin using Gemini with this Java 25 project, ensure your `pom.xml` (or `build.gradle` if using Gradle) includes the necessary Google Cloud client libraries for AI/ML.
+## Project Overview
 
-### Prerequisites
-*   Java 25 JDK
-*   Maven or Gradle build tool
+- **Build System:** Maven
+- **Java Version:** 25
+- **Main Class:** `com.example.Main`
 
-### Configuration
-Detailed instructions for configuring API keys, specifying Gemini model names, and setting regional endpoints will be provided here. This typically involves environment variables or a configuration file.
+## Features
 
-## Usage Examples
-This section will contain code snippets and examples demonstrating how to effectively make calls to Gemini models from within the Java 25 application, leveraging new language features where appropriate.
+- Uses modern Java 25 features, including instance main methods and implicitly declared classes.
+- Minimalist project structure for demonstration purposes.
 
-## Further Information
-For more in-depth documentation and advanced features, refer to the official Gemini API documentation.
+## How to Run
+
+To compile and run the project, use:
+
+```bash
+mvn compile exec:java -D"exec.mainClass=com.example.Main"
+```
